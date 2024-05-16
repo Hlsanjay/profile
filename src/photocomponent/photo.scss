@@ -1,0 +1,31 @@
+$photo-width-profile: 56px;
+$photo-width-nav: 35px;
+$photo-width-user: 80px;
+
+$photo-height-profile: 56px;
+$photo-height-nav: 35px;
+$photo-height-user: 80px;
+
+.profile-photo .photo {
+  width: $photo-width-profile;
+  height: $photo-height-profile;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.nav-bar .photo {
+  width: $photo-width-nav;
+  height: $photo-height-nav;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user .photo {
+  width: $photo-width-user;
+  height: $photo-height-user;
+  border-radius: 50%;
+  overflow: hidden;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+}

@@ -1,0 +1,17 @@
+.description-container {
+  padding: 0px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.description-container p {
+  display: inline;
+  font-family: "Manrope", sans-serif; /* Apply the font variable */
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(10, 37, 64, 0.6);
+}/*# sourceMappingURL=discription.css.map */
